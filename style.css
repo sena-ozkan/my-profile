@@ -1,0 +1,107 @@
+body {
+  background-color: #EDE3F2; 
+  color: black;
+  font-family: 'Rosario', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+h1, h2, h3  {
+  font-family: 'Lora', serif;
+}
+
+h1 {
+  color: #B25786;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #B25786;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+a { 
+  text-decoration: none; 
+  color: #B288C0;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #592941;  
+}
+
+.carte {
+  background-color: white;
+  width: 600px;
+  border-width: 1px;
+  padding: 40px;                            
+  border-radius: 6px;                       
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#photoSena {
+  border-radius: 50%;
+  width: 150px;
+  padding: 15px 20px;
+}
+
+.container { 
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.btn-blue { 
+  background-color: #B25786;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+ .btn-blue hover {
+  background-color: black;
+  color: white; 
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  list-style: none;
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i{
+  font-size: 50px;
+  color: rgb(178,87,134);
+}
+
+.list-inline i:hover {
+  color: rgb(178,87,134);
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
